@@ -34,6 +34,7 @@ option java_package = "io.grpc.examples.helloworld";
 option java_outer_classname = "HelloWorldProto";
 option objc_class_prefix = "HLW";
 option php_generic_services = true;
+option php_namespace = "Acme";
 
 package helloworld;
 
