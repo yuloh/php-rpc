@@ -9,16 +9,14 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * <pre>
  * The request message containing the user's name.
- * </pre>
  *
- * Protobuf type <code>helloworld.HelloRequest</code>
+ * Generated from protobuf message <code>helloworld.HelloRequest</code>
  */
 class HelloRequest extends \Google\Protobuf\Internal\Message
 {
     /**
-     * <code>string name = 1;</code>
+     * Generated from protobuf field <code>string name = 1;</code>
      */
     private $name = '';
 
@@ -28,7 +26,8 @@ class HelloRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * <code>string name = 1;</code>
+     * Generated from protobuf field <code>string name = 1;</code>
+     * @return string
      */
     public function getName()
     {
@@ -36,7 +35,9 @@ class HelloRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * <code>string name = 1;</code>
+     * Generated from protobuf field <code>string name = 1;</code>
+     * @param string $var
+     * @return $this
      */
     public function setName($var)
     {

@@ -5,18 +5,14 @@
 namespace Acme;
 
 /**
- * <pre>
  * The greeting service definition.
- * </pre>
  *
  * Protobuf type <code>helloworld.Greeter</code>
  */
 interface Greeter
 {
     /**
-     * <pre>
      * Sends a greeting
-     * </pre>
      *
      * Method <code>SayHello</code>
      *

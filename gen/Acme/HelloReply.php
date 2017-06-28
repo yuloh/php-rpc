@@ -9,16 +9,14 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * <pre>
  * The response message containing the greetings
- * </pre>
  *
- * Protobuf type <code>helloworld.HelloReply</code>
+ * Generated from protobuf message <code>helloworld.HelloReply</code>
  */
 class HelloReply extends \Google\Protobuf\Internal\Message
 {
     /**
-     * <code>string message = 1;</code>
+     * Generated from protobuf field <code>string message = 1;</code>
      */
     private $message = '';
 
@@ -28,7 +26,8 @@ class HelloReply extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * <code>string message = 1;</code>
+     * Generated from protobuf field <code>string message = 1;</code>
+     * @return string
      */
     public function getMessage()
     {
@@ -36,7 +35,9 @@ class HelloReply extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * <code>string message = 1;</code>
+     * Generated from protobuf field <code>string message = 1;</code>
+     * @param string $var
+     * @return $this
      */
     public function setMessage($var)
     {
