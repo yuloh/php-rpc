@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "google/protobuf": "^3.3",
+        "google/gax": "^0.21.1"
+    },
+    "autoload": {
+        "classmap": [
+            "./gen"
+        ]
+    }
+}
